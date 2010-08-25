@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>assertNaN("${1:message}", ${2:actual});</string>
+	<key>name</key>
+	<string>assertNaN</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>anan</string>
+	<key>uuid</key>
+	<string>DCD55B7A-1CE6-40C9-A7C7-A195C3D7C3AC</string>
+</dict>
+</plist>

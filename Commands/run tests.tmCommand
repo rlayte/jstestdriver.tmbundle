@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+cat &lt;&lt;'EOF'
+	&lt;h1&gt;JsTestDriver Results&lt;/h1&gt;
+EOF
+
+cd ../
+
+java -jar $JSTD_HOME/JsTestDriver-1.2.2.jar --tests all --reset --captureConsole</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@j</string>
+	<key>name</key>
+	<string>run tests</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>D869AEB5-A0C2-4930-98AC-8B7147455D02</string>
+</dict>
+</plist>
