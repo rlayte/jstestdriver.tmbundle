@@ -3,7 +3,12 @@
 
 A collection of snippets and commands for use with Google's JsTestDriver unit testing framework.
 
-# Commands
+## Snippets
+
+assertTrue: at + &#x21E5;
+assertFalse: af + &#x21E5;
+assertEquals: ae + &#x21E5;
+assertNotEquals: ane + &#x21E5;
 
 ## Starting the server
 
