@@ -5,7 +5,7 @@ A collection of snippets and commands for use with Google's JsTestDriver unit te
 
 ## Snippets
 
-+ assertTrue: at + &#x21E5;
++ assertTrue: &#x21E5; at
 + assertFalse: af + &#x21E5;
 + assertEquals: ae + &#x21E5;
 + assertNotEquals: ane + &#x21E5;
