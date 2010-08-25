@@ -43,13 +43,13 @@ A collection of snippets and commands for use with Google's JsTestDriver unit te
 
 ## Starting the server
 
-&#x2318; + k
+&#x2318; k
 
 This will open a new window, which runs the server. To stop the server just close this window.
 
 ## Running tests
 
-&#x2318; + j
+&#x2318; j
 
 This will reset the runner, run all tests, and output the results to an html window.
 
