@@ -3,6 +3,22 @@
 
 A collection of snippets and commands for use with Google's JsTestDriver unit testing framework.
 
+# Commands
+
+## Starting the server
+
+&#x2318;k
+
+This will open a new window, which runs the server. To stop the server just close this window.
+
+## Running tests
+
+&#x2318;j
+
+This will reset the runner, run all tests, and output the results to an html window.
+
+Note: These commands are still at an early stage and are currently pretty crude. The port is hardcoded to 4224, which can be changed by editing the command in the bundle. It also assumes a directory structure, which means you need to run the command from a sub directory of the folder that contains the configuration file. Again this can be changed in the bundle editor. Both of these will be made more easily configurable shortly.
+
 ## How To Install
 
 **Using git**
