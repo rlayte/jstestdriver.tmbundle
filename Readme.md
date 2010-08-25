@@ -5,10 +5,41 @@ A collection of snippets and commands for use with Google's JsTestDriver unit te
 
 ## Snippets
 
-+ assertTrue: &#x21E5; at
+**Tests**
+
++ test: test &#x21E5;
++ test case: testcase &#x21E5;
++ dom fixture: dom &#x21E5;
++ dom variable: domvar &#x21E5;
++ console.log: log &#x21E5;
+
+**Assertions**
+
++ assertTrue: at &#x21E5; at
 + assertFalse: af &#x21E5;
-+ assertEquals: ae + &#x21E5;
-+ assertNotEquals: ane + &#x21E5;
++ assertEquals: ae &#x21E5;
++ assertNotEquals: ane &#x21E5;
++ assertSame: as &#x21E5;
++ assertNotSame: ans &#x21E5;
++ assertUndefined: au &#x21E5;
++ assertNotUndefined: anu &#x21E5;
++ assertNaN: anan &#x21E5;
++ assertNotNaN: annan &#x21E5;
++ assertException: aex &#x21E5;
++ assertNotException: anex &#x21E5;
++ assertMatch: am &#x21E5;
++ assertNoMatch: anm &#x21E5;
++ assertTypeof: ato &#x21E5;
++ assertInstanceOf: aio &#x21E5;
++ assertArray: aa &#x21E5;
++ assertFunction: af &#x21E5;
++ assertObject: ao &#x21E5;
++ assertNumber: anum &#x21E5;
++ assertString: astr &#x21E5;
++ assertBoolean: ab &#x21E5;
++ assertTagName: atn &#x21E5;
++ assertClassName: acn &#x21E5;
++ assertElementId: aei &#x21E5;
 
 ## Starting the server
 
