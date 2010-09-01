@@ -11,11 +11,11 @@ cat &lt;&lt;'EOF'
 	&lt;h1&gt;JsTestDriver Server&lt;/h1&gt;
 EOF
 
-cd ../
+cd $TM_PROJECT_HOME
 
 java -jar $JSTD_HOME/JsTestDriver-1.2.2.jar --port 4224</string>
 	<key>fallbackInput</key>
-	<string>line</string>
+	<string>none</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>

@@ -11,7 +11,7 @@ cat &lt;&lt;'EOF'
 	&lt;h1&gt;JsTestDriver Results&lt;/h1&gt;
 EOF
 
-cd ../
+cd $TM_PROJECT_HOME
 
 java -jar $JSTD_HOME/JsTestDriver-1.2.2.jar --tests all --reset --captureConsole</string>
 	<key>input</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertObject("${1:message}", ${2:actual});</string>
+	<string>assertObject(${1:"${2:message}", }${3:actual});</string>
 	<key>name</key>
 	<string>assertObject</string>
 	<key>scope</key>

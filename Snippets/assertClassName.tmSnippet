@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertClassName("${1:message}", ${2:class}, ${2:element});</string>
+	<string>assertClassName(${1:"${2:message}", }${3:class}, ${4:element});</string>
 	<key>name</key>
 	<string>assertClassName</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertElementId("${1:message}", ${2:id}, ${2:element});</string>
+	<string>assertElementId(${1:"${2:message}", }${3:id}, ${4:element});</string>
 	<key>name</key>
 	<string>assertElementId</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertTypeOf("${1:message}", ${2:expected}, ${3:value});</string>
+	<string>assertTypeOf(${1:"${2:message}", }${3:expected}, ${4:value});</string>
 	<key>name</key>
 	<string>assertTypeof</string>
 	<key>scope</key>

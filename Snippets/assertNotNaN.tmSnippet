@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertNotNaN("${1:message}", ${2:actual});</string>
+	<string>assertNotNaN(${1:"${2:message}", }${3:actual});</string>
 	<key>name</key>
 	<string>assertNotNaN</string>
 	<key>scope</key>

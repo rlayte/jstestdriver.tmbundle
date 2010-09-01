@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertNoMatch("${1:message}", ${2:regex}, ${3:actual});</string>
+	<string>assertNoMatch(${1:"${2:message}", }${3:regex}, ${4:actual});</string>
 	<key>name</key>
 	<string>assertNoMatch</string>
 	<key>scope</key>

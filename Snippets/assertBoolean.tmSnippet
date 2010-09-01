@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertBoolean("${1:message}", ${2:actual});</string>
+	<string>assertBoolean(${1:"${2:message}", }${3:actual});</string>
 	<key>name</key>
 	<string>assertBoolean</string>
 	<key>scope</key>

@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assertException("${1:message}", function(){
-		$2
-	}, "${3:error}");</string>
+	<string>assertException(${1:"${2:message}", }function(){
+		$3
+	}, "${4:error}");</string>
 	<key>name</key>
 	<string>assertException</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>aex</string>
+	<string>aexp</string>
 	<key>uuid</key>
 	<string>390ACE7D-4F96-42EE-B178-A35751CCC1C6</string>
 </dict>
