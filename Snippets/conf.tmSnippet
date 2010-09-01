@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>server: ${1:http://localhost:}${2:4224}
+
+load:
+- $0
+</string>
+	<key>name</key>
+	<string>conf</string>
+	<key>scope</key>
+	<string>source.apache-config</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>77D12938-B4C4-48F2-8A25-11CDC3C6F6A0</string>
+</dict>
+</plist>
